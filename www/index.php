@@ -1,9 +1,10 @@
 <?php
 //blablabla
-require_once "start.php";
-
-require_once $dir_lib . "url_class.php";
 //podkluchaem classi
+require_once "start.php";
+require_once $dir_lib . "url_class.php";
+
+//sozdaem object URL
 $url = new URL();
 $view = $url->getView(); //vitoschit ssilku
 
